@@ -3,9 +3,19 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZDKS_01.
-write:/ 'Hello World'.
+REPORT zdks_01.
 
-write:/ 'Hello World 2'.
+PARAMETERS p_test TYPE char10.
 
-write:/ 'Hello World 3'.
+START-OF-SELECTION.
+
+WRITE:/ 'Hello World'.
+
+WRITE:/ 'Hello World 2'.
+
+WRITE:/ 'Hello World 3'.
+
+
+WRITE:/ 'Hello World 4'.
+
+WRITE:/ 'Hello abapGit'.
