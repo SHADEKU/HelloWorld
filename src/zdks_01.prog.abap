@@ -5,3 +5,7 @@
 *&---------------------------------------------------------------------*
 REPORT ZDKS_01.
 write:/ 'Hello World'.
+
+write:/ 'Hello World 2'.
+
+write:/ 'Hello World 3'.
